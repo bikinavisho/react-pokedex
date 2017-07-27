@@ -20,7 +20,6 @@ onFormSubmit(event){
   event.preventDefault();
   this.props.fetchPokemon(this.state.term);
   this.setState({term:''});
-  console.log(this.props.fetchPokemon(this.state.term));
 }
 
   render() {
